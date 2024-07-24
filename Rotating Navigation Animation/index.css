@@ -60,6 +60,10 @@ p{
     width: 50%;
     border-radius: 30px;
 }
+.mini-nav li a{
+    color: white;
+    text-decoration: none;
+}
 ul{
     position: absolute;
     top: 500px;

@@ -15,7 +15,7 @@ body{
     transition: 1.5s all;
 }
 .left-aside{
-    background-image: url("../Assets/image/后藤一里.jpg");
+    background-image: url("../Assets/image/Low/后藤一里.jpg");
 }
 .left-aside:hover{
     width: 75%;
@@ -24,7 +24,7 @@ body{
     width: 25%;
 }
 .right-aside{
-    background-image: url("../Assets/image/山田凉.jpg");
+    background-image: url("../Assets/image/Low/山田凉.jpg");
 }
 .right-aside:hover {
     width: 75%;
