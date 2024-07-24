@@ -1,22 +1,25 @@
-body{
+body {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(to bottom, #30cfd0 0%, #330867 100%);
 }
-.page-header{
+
+.page-header {
     width: 100%;
     height: 40px;
     text-align: center;
     line-height: 40px;
     font-size: 30px;
-    color:white;
+    color: white;
     text-shadow: 0px 0px 20px black;
 }
-.page-content{
+
+.page-content {
     display: flex;
     flex-wrap: wrap;
 }
-.item{
+
+.item {
     width: 20%;
     height: 155px;
     margin-top: 20px;
@@ -24,29 +27,39 @@ body{
     background-size: cover;
     border-radius: 5px;
 }
+
 /* #region 背景设计 */
 
-.item1{
+.item1 {
     background-image: url("./Expanding\ Cards/index.jpg");
 }
-.item2{
+
+.item2 {
     background-image: url("./Progress\ Steps/index.jpg");
 }
-.item3{
+
+.item3 {
     background-image: url("./Rotating\ Navigation\ Animation/index.jpg");
 }
-.item4{
+
+.item4 {
     background-image: url("./hidden-search-widget/index.jpg");
 }
-.item5{
+
+.item5 {
     background-image: url("./Blurry\ Loading/index.jpg");
 }
-.item7{
+
+.item6 {
+    background-image: url("./Scroll\ Animation/index.jpg");
+}
+
+.item7 {
     background-image: url("./Split\ Landing\ Page/index.jpg");
 }
 
 /* #endregion */
-.mask{
+.mask {
     width: 100%;
     height: 0%;
     background-color: black;
@@ -62,15 +75,18 @@ body{
     font-weight: bold;
     overflow: hidden;
 }
-.item:hover .mask{
+
+.item:hover .mask {
     height: 100%;
 }
-.linkCode{
+
+.linkCode {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
 }
-.iconfont{
+
+.iconfont {
     color: white;
     font-size: 30px;
 }
