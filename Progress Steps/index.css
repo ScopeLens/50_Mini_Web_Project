@@ -1,0 +1,73 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+ul{
+    width: 500px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+}
+.line,.baseline{
+    content: "";
+    position: absolute;
+    height: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: calc(100%-6px);
+    transition: 0.3s all;
+}
+.line{
+    width: 0%;
+    background-color: #2396ef;
+    z-index: 1;
+}
+.baseline{
+    width: 100%;
+    z-index: 0;
+    background-color: gray;
+}
+.ball{
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    transition: 0.6s all;
+}
+.ballActive{
+    border-color: #2396ef!important;
+}
+.choose{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    color: gray;
+    margin: 0 20px;
+    border: 0;
+    border-radius: 8px;
+}
+.buttonActive{
+    background-color: #2396ef!important;
+    color: white;
+}

@@ -1,0 +1,28 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Assets/image/女孩.jpg");
+    background-size: cover;
+    filter: blur(100px);
+}
+.loadingBox{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+}
+.number{
+    font-size: 20px;
+    margin-right: 20px;
+}
