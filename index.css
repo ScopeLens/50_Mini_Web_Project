@@ -25,10 +25,10 @@ body{
     border-radius: 5px;
 }
 .item1{
-    background-image: url("./Expanding\ Cards/index.jpeg");
+    background-image: url("./Expanding\ Cards/index.jpg");
 }
 .item2{
-    background-image: url("./Progress\ Steps/index.jpeg");
+    background-image: url("./Progress\ Steps/index.jpg");
 }
 .mask{
     width: 100%;
