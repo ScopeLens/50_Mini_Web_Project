@@ -58,6 +58,22 @@ body {
     background-image: url("./Split\ Landing\ Page/index.jpg");
 }
 
+.item8 {
+    background-image: url(".//Form\ Wave/index.jpg");
+}
+
+.item9 {
+    background-image: url("./BoardSound\ Boar/index.jpg");
+}
+
+.item11 {
+    background-image: url("./Event\ Keycodes/index.jpg");
+}
+
+.item31 {
+    background-image: url("./good-cheap-fast/index.jpg");
+}
+
 /* #endregion */
 .mask {
     width: 100%;
