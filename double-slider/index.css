@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.left-aside {
+    width: 40%;
+}
+
+.left-aside div {
+    text-align: center;
+    line-height: 100vh;
+    font-size: 40px;
+    font-weight: bold;
+    overflow: hidden;
+    color: #a1c4fd;
+    text-shadow: 0px 0px 10px gray;
+}
+
+.title {
+    height: 100vh;
+    transition: all 1s;
+}
+
+.ToDown {
+    height: 0px !important;
+}
+
+.img1 {
+    height: 100vh;
+    background-image: linear-gradient(to top, yellowgreen 0%, #fee140 100%);
+}
+
+.img2 {
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+
+}
+
+.img3 {
+    background-image: linear-gradient(to top, #a1c4fd 0%, #c2e9fb 100%);
+
+}
+
+.img4 {
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+
+.right-img {
+    width: 60%;
+    font-size: 0px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.move {
+    position: fixed;
+    font-size: 0px;
+    left: 40%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+button {
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+button:first-child {
+    transform: translateY(-25px);
+}
+
+button:last-child {
+    transform: translateY(25px);
+}

@@ -66,12 +66,24 @@ body {
     background-image: url("./BoardSound\ Boar/index.jpg");
 }
 
+.item10 {
+    background-image: url("./Dad\ Jokes/index.jpg");
+}
+
 .item11 {
     background-image: url("./Event\ Keycodes/index.jpg");
 }
 
+.item25 {
+    background-image: url("./double-slider/index.jpg");
+}
+
 .item31 {
     background-image: url("./good-cheap-fast/index.jpg");
+}
+
+.item38 {
+    background-image: url("./password-strength-background/index.jpg");
 }
 
 /* #endregion */
